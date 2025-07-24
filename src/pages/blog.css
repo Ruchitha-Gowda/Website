@@ -1,0 +1,11 @@
+.blog-container h1, .blog-container h2 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0px;
+}
+
+.blog-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e63946;
+}

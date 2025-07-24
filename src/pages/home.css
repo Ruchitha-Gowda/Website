@@ -1,0 +1,25 @@
+.board{
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    margin-top: 30px;
+}
+.board-headlines h1, h3{
+    margin: auto;
+    width: 90%;
+    align-content: center;
+    display: block;
+    text-align: center;
+}
+.card{
+    width: 400px;
+    margin: 10px; 
+}
+
+.btn{
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+}
