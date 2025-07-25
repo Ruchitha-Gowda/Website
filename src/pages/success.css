@@ -1,0 +1,63 @@
+h3{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    font-weight: bolder;
+
+}
+
+video{
+    gap:10px;
+    border-radius: 8px;
+    width: 100px;
+    border: 8px;
+    border-top: 1px;
+    margin: auto;
+    display: flex;
+    
+}
+.card-circular-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 700%;
+    object-fit: cover;
+    background-color: black;
+    flex-wrap:wrap;
+
+
+}
+.images{
+    border-radius: 7px;
+    gap:10px;
+    display: flex;
+    object-fit: cover;
+    padding: 20px;
+
+}
+
+/* Add this to success.css */
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px; /* Adjust to your desired size */
+    height: auto;
+}
+
+.custom-video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    pointer-events: none;
+}
