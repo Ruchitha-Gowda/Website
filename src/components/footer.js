@@ -22,7 +22,7 @@ export default function Footer() {
                         {/* <p>Have questions? Check our <a href="/faq">FAQ</a> page for answers to common queries.</p> */}
                     </div>
                     <div className="col-md-3">
-                        <h5><a href="/services">Services</a></h5>
+                        <h5><a href="/service">Services</a></h5>
                     </div>
                 </div>
             </div>
