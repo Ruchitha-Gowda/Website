@@ -8,6 +8,11 @@ import Blog from "./pages/blog";
 import Success from "./pages/success";
 import Footer from "./components/footer";
 import Faq from "./pages/faq";
+import Service from "./pages/service";
+import Faculty from "./pages/Faculty";
+import Contact from "./pages/ContactUs";
+// import Learning from "./pages/learning";
+import KnowledgeHub from "./pages/knowledgehub/knowledgehub";
 
 export default function App() {
   return (
@@ -21,6 +26,10 @@ export default function App() {
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/faq" element={<Faq/>}/>
       <Route path="/success" element={<Success/>}/>
+      <Route path="/knowledgehub" element={<KnowledgeHub/>}/>
+      <Route path="/service" element={<Service/>}/>
+      <Route path="/faculty" element={<Faculty/>}/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

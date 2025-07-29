@@ -202,7 +202,7 @@ export default function Success() {
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center">
-                        <div className="video-wrapper mt-4">
+                        <div className="video-wrapper my-4">
                             <video
                                 src={V8}
                                 className="custom-video"
