@@ -9,9 +9,11 @@ import Success from "./pages/success";
 import Footer from "./components/footer";
 import Faq from "./pages/faq";
 import Service from "./pages/service";
-import Faculty from "./pages/Faculty";
+import Faculty from "./pages/faculty";
 import Contact from "./pages/ContactUs";
-// import Learning from "./pages/learning";
+import Jobs from "./pages/job";
+import About from "./pages/about";
+import Project from "./pages/projects"
 import KnowledgeHub from "./pages/knowledgehub/knowledgehub";
 
 export default function App() {
@@ -30,6 +32,9 @@ export default function App() {
       <Route path="/service" element={<Service/>}/>
       <Route path="/faculty" element={<Faculty/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/job" element={<Jobs/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/project" element={<Project/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

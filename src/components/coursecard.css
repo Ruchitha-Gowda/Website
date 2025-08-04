@@ -1,0 +1,32 @@
+.course-card {
+    margin: 10px;
+    transition: transform 0.3s ease;
+    padding-bottom: 60px;
+}
+.course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.course-card .card-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #C0C0C0;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.course-card .card-title {
+    font-family: 'Open Sans', sans-serif;
+    color: #66FFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}

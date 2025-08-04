@@ -11,7 +11,7 @@ import A5 from "../images/a5.png";
 import A6 from "../images/a6.png";
 import A7 from "../images/a7.png";
 import A8 from "../images/a8.png";
-      
+
 export default function Blog() {
     const articles = [
         {
@@ -84,15 +84,17 @@ export default function Blog() {
 
     return (
         <>
-            <div className="blog-container container mt-5">
-                <h1 className="ms-3">BLOG</h1>
-                <h2 className="ms-3">Featured Articles</h2>
-                <div className="row g-0 mt-0">
-                    {articles.map((article, index) => (
-                        <div key={index} className="col-12 col-sm-6 col-lg-3 d-flex">
-                            <ArticleCard {...article} />
-                        </div>
-                    ))}
+            <div className="blog-container">
+                <div className="container mt-2">
+                    {/* <h1 className="ms-3">BLOG</h1> */}
+                    <h1 className="ms-3">Featured Articles</h1>
+                    <div className="row g-0 mt-0">
+                        {articles.map((article, index) => (
+                            <div key={index} className="col-6 col-lg-4 col-md-4 col-sm-6 d-flex">
+                                <ArticleCard {...article} />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

@@ -6,16 +6,15 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <div className="container-fluid px-4 py-3">
+      <div className="container-fluid home px-4 py-2">
 
-        <section className="text-center text-container my-5">
-          <h1 className="wel-head">Welcome to Our Website</h1>
-          <p className="wel-para"> Empowering careers through knowledge, mentorship, and oppurtunities.</p>
-          <a href="/knowledgehub" className="btn btn-explore btn-primary">Explore Knowledge Hub</a>
+        <section className="text-center text-container my-2">
+          <h1>Welcome to Our Website</h1>
+          <p> Empowering careers through knowledge, mentorship, and opportunities.</p>
+          <Link to="/knowledgehub" className="btn btn-explore btn-primary">Explore Knowledge Hub</Link>
         </section>
 
-        <section className="row text-ceneter my-5">
-          <h2 className="mb-4 text-offer">What we Offer</h2>
+        <section className="row my-3">
           {[
             { title: "Knowledge Hub", link: "/knowledgehub", desc: "Access a wide range of resources to enhance your skills and knowledge." },
             { title: "Courses", link: "/course", desc: "Enroll in our comprehensive courses designed to help you excel in your field." },
@@ -27,72 +26,59 @@ export default function Home() {
             { title: "Faculty & Mentors", link: "/faculty", desc: "Meet our experienced faculty and mentors who guide you on your journey." },
             { title: "Testimonials", link: "/success", desc: "Hear from our satisfied users about their experiences with our platform." },
           ].map((item, index) => (
-            <div key={index} className="col-md-4 d-flex my-3">
-              <Link to={item.link} className="text-decoration-none text-dark">
-                <div className="border rounded p-3">
+            <div key={index} className="col-md-4 d-flex  align-items-stretch my-3">
+              <Link to={item.link} className="text-decoration-none text-dark w-100">
+                <article className="border custom-card rounded p-3 h-100">
                   <h5 className="card-title">{item.title}</h5>
                   <p className="card-text">{item.desc}</p>
-                </div>
+                </article>
               </Link>
             </div>
           ))}
         </section>
 
-        <section className="my-5">
-          <h2 className="learn-head">Learning Hub</h2>
-          <p className="learn-para">Find a variety of resources to enhance your knowledge and skills.</p>
-          <div className="row">
-            <div className="col-md-4">
-              <h5 className="exp-topic">Explore Topics</h5>
+        <section className="my-2">
+          <h2>Learning Hub</h2>
+          <p>Find a variety of resources to enhance your knowledge and skills.</p>
+          <div className="row ">
+            <div className="col-md-6">
+              <h5>Explore Topics</h5>
               <ul>
                 <li>Web Dev (HTML, CSS, JS, React)</li>
                 <li>Data Structures (Arrays, Trees, Graphs)</li>
                 <li>Cyber Security (OWASP, Cryptography)</li>
               </ul>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-6">
               <h5>Resources</h5>
               <ul>
-                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
-                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
-                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a></li>
+                <li><a href="https://developer.mozilla.org/" rel="noopener noreferrer">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/" rel="noopener noreferrer">W3Schools</a></li>
+                <li><a href="https://www.freecodecamp.org/" rel="noopener noreferrer">FreeCodeCamp</a></li>
               </ul>
             </div>
-            <div className="col-md-4">
-              <h5>Sample Quiz</h5>
-              <p><strong>Q:</strong> What does CSS stand for?</p>
-              <ul>
-                <li>Creative Style Sheets</li>
-                <li><strong>Cascading Style Sheets</strong></li>
-                <li>Computer Style Sheets</li>
-                <li>Colorful Style Sheets</li>
-              </ul>
-            </div>
+            
           </div>
         </section>
-        <section className="my-5">
+        <section className="my-2">
           <h2>Courses We Offer</h2>
           <div className="row">
             {[
               "Full Stack Development",
               "Data Science with Python",
               "UI & UX",
-              "Android App Development",
-              "Cloud Computing",
-              "Machine Learning Basics",
-              "SEO & Content Strategy",
-              "Mobile Game Development"
+              "Android App Development"
             ].map((course, idx) => (
               <div key={idx} className="col-6 col-md-3 d-flex mb-3">
-                <div className="card h-100 shadow-sm">
+                <div className="card w-100">
                   <div className="card-body">
-                    <h6 className="card-title">{course}</h6>
+                    <h6 className="card-title ">{course}</h6>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-          <Link to="/course" className="btn-explore btn-secondary mt-3">See All Courses</Link>
+          <Link to="/course" className="btn btn-explore btn-secondary mt-3">See All Courses</Link>
         </section>
 
       </div>

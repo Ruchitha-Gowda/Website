@@ -1,28 +1,23 @@
-.board{
-    margin: auto;
-    width: 70%;
-    justify-content: center;
-    display: block;
-    align-items: center;
-    margin-top: 30px;
+.card {
+    /* width: 400px; */
+    margin: 10px;
+    width: 100%;
 }
-.board-headlines h1, h3{
-    margin: auto;
-    width: 90%;
-    align-content: center;
-    display: block;
-    text-align: center;
-}
-.card{
-    width: 400px;
-    margin: 10px; 
+.custom-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;        /* ensures stretch */
+    width: 100%;         /* ensures equal width inside col */
 }
 
-.btn-explore{
+.btn-explore {
     margin: auto;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     background: linear-gradient(45deg, #FFD700, #FFA500);
     color: black;
     border: none;
@@ -34,40 +29,77 @@
     border-radius: 8px;
     font-size: large;
     width: fit-content;
-    /* float: center; */
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.wel-head{
+
+.home h1 {
     font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
     margin-bottom: 20px;
 }
-.wel-para{
+
+.home p {
     font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 30px;
+    color: #979393;
+    /* margin-bottom: 30px; */
+    margin-top: 10px;
 }
-.text-offer{
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    /* margin-bottom: 20px; */
-}
-.learn-head{
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    /* margin-bottom: 20px; */
-}
-.learn-para{
+
+.home .card-title {
     font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 30px;
+    color: #00FFFF;
+    margin-top: 10px;
 }
-.exp-topic{
+.home .row {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.home .card-text {
+    font-size: 1rem;
+    color: #C0C0C0;
+    margin-top: 5px;
+}
+
+.home h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D3D3D3;
+    margin-top: 50px;
+}
+
+.home h5 {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+    color: #66FFFF;
+}
+
+.home ul { 
+    color: #A9CFF0;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+.home li a{
+    color: #87CEEB;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.home {
+    background: linear-gradient(135deg, #2F4F4F, #000000);
+    color: white;
+    padding: 20px 0;
+}
+.home .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    height: 100%; /* Make height full within the column */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%; /* Allow responsive width */
 }

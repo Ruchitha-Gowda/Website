@@ -1,0 +1,83 @@
+.job-page {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #2F4F4F, #000000);
+}
+
+.hero {
+    background-image: url("../images/js1.jpg");
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+
+.job-page .hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+  color: aquamarine;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.job-page .hero .btn-primary {
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  color: black;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Dancing Script, cursive;
+  cursor: pointer;
+}
+
+.job-page .featured {
+  padding: 40px 20px;
+  text-align: center;
+  /* color: white; */
+
+}
+
+.job-page .featured h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 1.8rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.job-page .featured .job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.job-cards .job-card {
+  width: 400px;
+  padding: 15px;
+  text-align: center;
+}
+
+.job-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.job-card h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #C0C0C0;
+}
+
+.job-card{
+  color: #C0C0C0;
+  font-size: 18px;
+}

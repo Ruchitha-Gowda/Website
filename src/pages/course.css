@@ -6,3 +6,17 @@
 .card:hover{
     transform: translateY(-20px);
 }
+.course-container {
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2F4F4F, #000000);
+}
+
+.course-container .container h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0px;
+    /* text-align: left; */
+    color: aquamarine;
+}

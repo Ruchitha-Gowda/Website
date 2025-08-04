@@ -90,14 +90,16 @@ export default function Course() {
 
     return (
         <>
-            <div className="course-container container mt-5">
-                <h1 className="ms-3">Courses we Offer!!!!</h1>
-                <div className="row g-0 mt-0">
-                    {course.map((course, index) => (
-                        <div key={index} className="col-12 col-sm-6 col-lg-3 d-flex">
-                            <CourseCard {...course} />
-                        </div>
-                    ))}
+            <div className="course-container">
+                <div className="container mt-5">
+                    <h1 className="ms-3">Courses we Offer!!!!</h1>
+                    <div className="row g-0 mt-0">
+                        {course.map((course, index) => (
+                            <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                                <CourseCard {...course} />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </>

@@ -1,0 +1,67 @@
+.contact {
+    background: linear-gradient(135deg, #2F4F4F, #000000);
+    padding: 50px 0;
+}
+.contact .contact-container h1{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact .contact-container p {
+    color: #e4e1e2;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact .email-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    color: #e4e1e2;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.contact .email-section a {
+    color: #87CEEB;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact .address-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.contact .office-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    color: #e4e1e2;
+    margin: 20px;
+    /* flex: 1 1 300px; Flexbox for responsive design */
+    text-align: center;
+}
+
+.contact .office-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.contact .office-box p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+.contact .office-box a {
+    color: #87CEEB;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact .logo-section {
+    text-align: center;
+    margin-top: 30px;
+}

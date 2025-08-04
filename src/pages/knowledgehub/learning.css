@@ -1,0 +1,125 @@
+h2, h4 {
+    font-family: Merriweather, serif;
+    color: #2c3e50;
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    color: #66FFFF;
+    font-weight: bold;
+}
+.card{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    /* padding: 20px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #C0C0C0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.alert-info{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #2980b9;
+    border-color: #2980b9;
+    border-radius: 5px;  
+}
+
+.container h1 {
+    font-family: 'Dancing Script', cursive;
+    color: aquamarine;
+    font-size: 40px;
+}
+.container p {
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    font-size: 18px;
+}
+
+
+.resource {
+    background: linear-gradient(135deg, #2F4F4F, #000000);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.res-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cc4c57;
+    margin-bottom: 20px;
+}
+.resource a {
+    color: #70c2b0;
+    text-decoration: none;
+    font-weight: bold;
+}
+.resource li{
+    background: none;
+    border: none;
+}
+.resource a:hover {
+    color: #e63946;
+}
+
+.quiz-section {
+    background: linear-gradient(135deg, #2F4F4F, #000000);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.quiz-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #cc4c57;
+}
+
+.quiz button {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quiz button:hover {
+    background: linear-gradient(45deg, #FFA500, #FFD700);
+    transition: background 0.3s ease;
+}
+.quiz p strong{
+    color: #5ff7f7bf;
+    font-weight: bold;
+}
+.quiz, .form-check {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.learning {
+    background: linear-gradient(135deg, #2F4F4F, #000000);
+    color: white;
+    padding: 1px;
+}
+.learning h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D3D3D3;
+    margin-top: 50px;
+}
+.learning p{
+    font-size: 1.2rem;
+    color: #979393;
+    margin-top: 10px;
+}

@@ -7,7 +7,7 @@ import "./header.css";
 export default function Header() {
     return (
         <>
-            <div className="header-container">
+            <div className="header">
 
                 {/* Navbar */}
                 <nav className="navbar navbar-expand-lg navbar-light  border-bottom">
@@ -39,10 +39,10 @@ export default function Header() {
                             {/* Right section */}
                             <ul className="navbar-nav flex-wrap mx-3">
                                 <li className="nav-item"><a className="nav-link" href="/course">Courses</a></li>
-                                <li className="nav-item"><a className="nav-link" href="/batch">Batches</a></li>
+                                {/* <li className="nav-item"><a className="nav-link" href="/batch">Batches</a></li> */}
                                 <li className="nav-item"><a className="nav-link" href="/project">Projects</a></li>
                                 <li className="nav-item"><a className="nav-link" href="/faculty">Faculty & Mentors</a></li>
-                                <li className="nav-item"><a className="nav-link" href="/learning">Knowledge Hub</a></li>
+                                <li className="nav-item"><a className="nav-link" href="/knowledgehub">Knowledge Hub</a></li>
                                 <li className="nav-item"><a className="nav-link" href="/job">Jobs</a></li>
                                 <li className="nav-item"><a className="nav-link" href="/success">Success Stories</a></li>
                                 <li className="nav-item"><a className="nav-link" href="/blog">Blogs</a></li>
