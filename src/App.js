@@ -14,6 +14,8 @@ import Contact from "./pages/ContactUs";
 import Jobs from "./pages/job";
 import About from "./pages/about";
 import Project from "./pages/projects"
+import Signup from "./pages/signup";
+import Login from "./pages/login"
 import KnowledgeHub from "./pages/knowledgehub/knowledgehub";
 
 export default function App() {
@@ -35,6 +37,8 @@ export default function App() {
       <Route path="/job" element={<Jobs/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/project" element={<Project/>}/>
+      <Route path="/signup" element={<Signup/>}/>
+      <Route path="/login" element={<Login/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

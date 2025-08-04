@@ -29,18 +29,7 @@
   border-radius: 8px;
 }
 
-.login-form button {
-  width: 100%;
-  padding: 10px;
-  background-color: #0f8a8a;
-  color: rgb(56, 29, 175);
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 10px;
-  font-weight: 600;
 
-}
 
 .login-form button:hover {
   background-color: #d3d012;
@@ -55,7 +44,7 @@
 
       
 }
-.card-text{
+/* .card-text{
   background-image: url('https://st5.depositphotos.com/10448384/62423/v/450/depositphotos_624235326-stock-illustration-pink-fog-magic-smoke-isolated.jpg'); /* use your desired background */
   /* background-size: cover;
   text-color:white;
@@ -71,8 +60,8 @@
 
   align-items: center;
 
-} */ 
- /* src/login.css */
+} */  */
+ 
 .login-container {
   background-color: linear-gradient(135deg, #2F4F4F, #000000);;
   height: 100vh;
