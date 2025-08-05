@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;        /* ensures stretch */
-    width: 100%;         /* ensures equal width inside col */
+    height: 100%;       
+    width: 100%;     
 }
 
 .btn-explore {
@@ -29,63 +29,58 @@
     border-radius: 8px;
     font-size: large;
     width: fit-content;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .home h1 {
-    font-size: 2.5rem;
-    font-family: 'Dancing Script', cursive;
-    color: #fff;
+    font-size: 40px;
+    color: aquamarine;
     margin-bottom: 20px;
 }
 
 .home p {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #979393;
-    /* margin-bottom: 30px; */
     margin-top: 10px;
 }
 
 .home .card-title {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #00FFFF;
     margin-top: 10px;
+
 }
 .home .row {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
 }
 .home .card-text {
-    font-size: 1rem;
+    font-size: 20px;
     color: #C0C0C0;
     margin-top: 5px;
 }
 
 .home h2 {
-    font-size: 2rem;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 26px;
     color: #D3D3D3;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .home h5 {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #66FFFF;
 }
 
-.home ul { 
+.home ul li{ 
     color: #A9CFF0;
-    font-size: 1.2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
     list-style-type: none;
     padding: 0;
 }
 
 .home li a{
-    color: #87CEEB;
+    color: #A9CFF0;
     text-decoration: none;
-    /* font-weight: bold; */
 }
 .home {
     background: linear-gradient(135deg, #2F4F4F, #000000);
@@ -100,6 +95,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     width: 100%; /* Allow responsive width */
 }
+.home 
+.card-title{
+  word-wrap: break-word;    
+  word-break: break-word;      
+  white-space: normal;         
+              
+}
+@media (max-width: 768px) {
+  .home .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+

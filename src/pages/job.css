@@ -1,5 +1,5 @@
 .job-page {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: linear-gradient(135deg, #2F4F4F, #000000);
 }
 
@@ -15,7 +15,7 @@
 .job-page .hero h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Roboto', sans-serif;
   color: aquamarine;
 }
 
@@ -47,7 +47,7 @@
   margin-bottom: 20px;
   font-weight: bold;
   color: aquamarine;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 .job-page .featured .job-cards {

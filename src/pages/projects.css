@@ -2,7 +2,7 @@
   background: linear-gradient(135deg, #2F4F4F, #000000);
   padding: 100px;
   padding-top: 40px;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-header {
@@ -14,7 +14,7 @@
   font-size: 30px;
   color: aquamarine;
   margin-bottom: 10px;
-  font-family: 'Dancing Script', cursive ;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-header p {
@@ -57,7 +57,7 @@
 }
 
 .project-info h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #66FFFF;
     font-weight: bold;
     font-size: 20px;
@@ -65,7 +65,7 @@
 }
 
 .project-info p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #C0C0C0;
     font-size: 16px;
     padding: 10px 0;

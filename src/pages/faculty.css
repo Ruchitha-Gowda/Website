@@ -1,14 +1,13 @@
 .faculty-section {
   text-align: center;
   padding: 10px 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .faculty-title {
   font-size: 30px;
   font-weight: bold;
   color: aquamarine;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
 }
 

@@ -17,7 +17,7 @@
 }
 
 .course-card .card-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #C0C0C0;
     font-size: 16px;
     line-height: 1.6;
@@ -25,7 +25,7 @@
 }
 
 .course-card .card-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #66FFFF;
     font-weight: bold;
     font-size: 20px;

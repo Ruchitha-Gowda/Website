@@ -1,10 +1,8 @@
-/* Remove float - use flex instead */
 .home-link,
 .dropdown {
     float: none;
 }
 
-/* Keep button styles */
 .home-link {
     text-decoration: none;
     background-color: #87CEEB;
@@ -21,9 +19,9 @@
     color: black;
     border: none;
     padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: large;
-    font-family: 'Lucida Sans', sans-serif;
 }
 
 .home-link:hover {
@@ -47,9 +45,13 @@
     letter-spacing: 0.05em;
     align-items: center;
     display: block;
+    font-family: 'Roboto', sans-serif;
     transition: color 0.3s ease;
-    font-family: 'Lucida Sans', sans-serif;
 }
+
+
+
+
 .dropdown-menu {
     z-index: 9999;
 }

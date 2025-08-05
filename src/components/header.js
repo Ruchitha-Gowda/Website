@@ -7,7 +7,7 @@ import "./header.css";
 export default function Header() {
     return (
         <div className="header">
-            <nav className="navbar navbar-expand-lg navbar-light border-bottom container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom container-fluid">
                 <a className="navbar-brand" href="/">
                     <img src={Logo} alt="Cloudisian Logo" height="60" />
                 </a>

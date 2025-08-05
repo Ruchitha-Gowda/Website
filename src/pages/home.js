@@ -70,7 +70,7 @@ export default function Home() {
               "Android App Development"
             ].map((course, idx) => (
               <div key={idx} className="col-6 col-md-3 d-flex mb-3">
-                <div className="card w-100">
+                <div className="card ">
                   <div className="card-body">
                     <h6 className="card-title ">{course}</h6>
                   </div>

@@ -4,7 +4,7 @@ h2, h4 {
 }
 
 .card-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #66FFFF;
     font-weight: bold;
 }
@@ -17,7 +17,7 @@ h2, h4 {
 }
 
 .card-text {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #C0C0C0;
 }
 
@@ -35,13 +35,13 @@ h2, h4 {
 }
 
 .container h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
     color: aquamarine;
     font-size: 30px;
     font-weight: bold;
 }
 .container p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #2c3e50;
     font-size: 18px;
 }
@@ -89,7 +89,7 @@ h2, h4 {
 .quiz button {
     background: linear-gradient(45deg, #FFD700, #FFA500);
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Roboto', sans-serif;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -105,7 +105,7 @@ h2, h4 {
     font-weight: bold;
 }
 .quiz, .form-check {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 1.2rem;
 }
