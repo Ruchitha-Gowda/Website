@@ -91,7 +91,7 @@ export default function Course() {
     return (
         <>
             <div className="course-container">
-                <div className="container mt-5">
+                <div className="container">
                     <h1 className="ms-3">Courses we Offer!!!!</h1>
                     <div className="row g-0 mt-0">
                         {course.map((course, index) => (

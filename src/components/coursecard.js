@@ -6,7 +6,7 @@ import "../components/coursecard.css";
 export default function CourseCard({ image, title, description }) {
     return (
         <>
-            <div className="course-card mb-4 mt-5 d-flex flex-column">
+            <div className="card-base course-card mb-4 mt-5 d-flex flex-column">
                 <img src={image} className="card-img-top" alt="Course Image" />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>

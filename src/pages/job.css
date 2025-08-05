@@ -32,7 +32,6 @@
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: bold;
-  font-family: "Dancing Script", cursive;
   cursor: pointer;
 }
 
@@ -44,10 +43,10 @@
 }
 
 .job-page .featured h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  color: black;
-  font-size: 1.8rem;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: aquamarine;
   font-family: "Dancing Script", cursive;
 }
 

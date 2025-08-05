@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer className="footer">
             <div className="container">
-                <div className="row">
+                <div className="row row-cols-4 text-center">
                     <div className="col-md-3">
                         <h5><a href="/about">About Us</a></h5>
                         {/* <p>We are a team of passionate developers and designers dedicated to creating innovative web solutions.</p> */}

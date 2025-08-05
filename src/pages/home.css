@@ -90,7 +90,7 @@
 .home {
     background: linear-gradient(135deg, #2F4F4F, #000000);
     color: white;
-    padding: 20px 0;
+    padding: 50px;
 }
 .home .card {
     background: rgba(255, 255, 255, 0.1);

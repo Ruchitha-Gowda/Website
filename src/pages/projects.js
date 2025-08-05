@@ -31,8 +31,8 @@ export default function Projects() {
   return (
     <div className="project-page">
       <header className="project-header">
-        <h1>My Projects</h1>
-        <p>Explore the tech I've built and contributed to</p>
+        <h1>Projects</h1>
+        <p>Explore the tech We've built and contributed to</p>
       </header>
 
       <section className="project-grid">

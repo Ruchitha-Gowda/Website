@@ -6,7 +6,7 @@ import "../components/articlecard.css";
 export default function ArticleCard({ image, category, title, description, author, date }) {
     return (
         <>
-            <div className="article-card mb-4 mt-5  d-flex flex-column">
+            <div className="card-base article-card mb-4 mt-5  d-flex flex-column">
                 <img src={image} className="card-img-top" alt="Blog Post Image" />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>

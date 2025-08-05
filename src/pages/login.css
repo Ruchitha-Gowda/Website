@@ -1,1 +1,21 @@
+.login{
+  background: linear-gradient(135deg, #2F4F4F, #000000);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
 
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card h3 {
+  color: #198754;
+  font-size: 30px;
+}

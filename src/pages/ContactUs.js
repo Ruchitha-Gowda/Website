@@ -6,7 +6,7 @@ function ContactUs() {
   return (
     <div className="contact">
       <div className='contact-container'>
-        <h1>CONTACT US</h1>
+        <h1>Contact Us</h1>
         <p className="tagline">CLOUDISIAN | YOUR IT CONSULTING & TRAINING PARTNER</p>
       </div>
       <div className="email-section">
@@ -35,11 +35,6 @@ function ContactUs() {
             <p>📞 080 40108799 / ‪+91 7022280365‬</p>
           </div>
         </div>
-      </div>
-
-      <div className="logo-section">
-        <img src={image} alt="Contact" className="contact-img" />
-        <p className="slogan"></p>
       </div>
     </div>
   );

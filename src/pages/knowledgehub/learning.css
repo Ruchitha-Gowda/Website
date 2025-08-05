@@ -11,7 +11,7 @@ h2, h4 {
 .card{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    /* padding: 20px; */
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
@@ -37,17 +37,20 @@ h2, h4 {
 .container h1 {
     font-family: 'Dancing Script', cursive;
     color: aquamarine;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .container p {
     font-family: 'Open Sans', sans-serif;
     color: #2c3e50;
     font-size: 18px;
 }
-
+.container{
+    padding: 10px;
+}
 
 .resource {
-    background: linear-gradient(135deg, #2F4F4F, #000000);
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     color: #fff;
@@ -72,7 +75,7 @@ h2, h4 {
 }
 
 .quiz-section {
-    background: linear-gradient(135deg, #2F4F4F, #000000);
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
     color: #fff;
@@ -113,7 +116,7 @@ h2, h4 {
     padding: 1px;
 }
 .learning h2 {
-    font-size: 2rem;
+    font-size: 25px;
     font-weight: bold;
     color: #D3D3D3;
     margin-top: 50px;
