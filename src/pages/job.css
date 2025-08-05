@@ -4,7 +4,7 @@
 }
 
 .hero {
-    background-image: url("../images/js1.jpg");
+  background-image: url("../images/js1.jpg");
   text-align: center;
   color: white;
   padding: 100px 20px;
@@ -15,7 +15,7 @@
 .job-page .hero h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   color: aquamarine;
 }
 
@@ -32,7 +32,7 @@
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: bold;
-  font-family: Dancing Script, cursive;
+  font-family: "Dancing Script", cursive;
   cursor: pointer;
 }
 
@@ -48,7 +48,7 @@
   margin-bottom: 30px;
   color: black;
   font-size: 1.8rem;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .job-page .featured .job-cards {
