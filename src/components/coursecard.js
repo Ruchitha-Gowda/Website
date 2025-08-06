@@ -13,7 +13,7 @@ export default function CourseCard({ image, title, description }) {
                     <p className="card-text">{description}</p>
                 </div>
                 <div className="card-footer pt-0">
-                    <a href="#" className="btn btn-primary">Enroll Now</a>
+                    <a href="/contact" className="btn btn-primary">Enroll Now</a>
                 </div>
             </div>
         </>

@@ -15,7 +15,7 @@ export default function ArticleCard({ image, category, title, description, autho
                     <p className="card-text"><small className="txt-muted">Category: {category}</small></p>
                 </div>
                 <div className="card-footer pt-0">
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="/login" className="btn btn-primary">Read More</a>
                 </div>
             </div>
         </>
