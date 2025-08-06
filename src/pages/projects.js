@@ -5,26 +5,48 @@ import './projects.css';
 import Project1 from "../images/project1.png";
 import Project2 from "../images/project2.png";
 import Project3 from "../images/project3.png";
+import Project4 from "../images/project4.png";
+import Project5 from "../images/project5.png";
+import Project6 from "../images/project6.png";
 
 const projects = [
   {
     title: "Secure Video Player App",
     description: "A React Native app with custom video playback, watermarking, and screenshot protection.",
     image: Project1,
-    github: "https://github.com/Shuaib77/SecureVideoPlayer.git"
+    github: "#"
   },
   {
     title: "Hotel Booking and Management",
     description: "Hotel Management System (HMS) developed for managing small hotel's or guess house in Web Base.",
     image: Project2,
-    github: "https://github.com/phegondev/phegon-hotel-booking-and-management.git"
+    github: "#"
   },
   {
     title: "CHAT APP",
     description: "A web based real time chat application using react MERN stack with web socket.io for two way communication.",
     image: Project3,
-    github: "https://github.com/Ruchitha-Gowda/CHATAPP-MASTER.git"
-  }
+    github: "#"
+  },
+  {
+    title: "Hospital Management System",
+    description: "The purpose of the project entitled as “HOSPITAL MANAGEMENT SYSTEM” is to computerize the Front Office Management of Hospital to develop software which is user friendly simple, fast, and cost – effective. It deals with the collection of patient’s information, diagnosis details, etc.",
+    image: Project4,
+    github: "#"
+  },
+  {
+    title: "Travel Booking",
+    description: "MERN Stack Tours & Travels Booking Website Created with React JS.",
+    image: Project5,
+    github: "#"
+  },
+  {
+    title: "Event Booking",
+    description: "Booking function for Availability + Event Creation",
+    image: Project6,
+    github: "#"
+  },
+
 ];
 
 export default function Projects() {

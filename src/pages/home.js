@@ -9,7 +9,7 @@ export default function Home() {
       <div className="container-fluid home px-4 py-2">
 
         <section className="text-center text-container my-2">
-          <h1>Welcome to Our Website</h1>
+          <h1>Welcome to Cloudisian</h1>
           <p> Empowering careers through knowledge, mentorship, and opportunities.</p>
           <Link to="/knowledgehub" className="btn btn-explore btn-primary">Explore Knowledge Hub</Link>
         </section>

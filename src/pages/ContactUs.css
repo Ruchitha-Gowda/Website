@@ -1,3 +1,4 @@
+
 .contact {
     background: linear-gradient(135deg, #2F4F4F, #000000);
     padding: 20px 15px;
@@ -66,3 +67,35 @@
     font-weight: bold;
 }
 
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.address-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1 1 300px;
+  min-width: 300px;
+}
+
+.address-section .office-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  color: #e4e1e2;
+  box-sizing: border-box;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+.contact-grid > * {
+  flex: 1 1 300px;
+  max-width: 500px;
+  box-sizing: border-box;
+}

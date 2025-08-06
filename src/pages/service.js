@@ -31,7 +31,6 @@ const Service = () => {
         ))}
       </div>
 
-      {/* Contact / CTA section */}
       <div className="cta-box">
         <div className="cta-left">
             
@@ -46,7 +45,6 @@ const Service = () => {
         </div>
       </div>
 
-      {/* Process Section */}
       <div className="process-section">
         <h2>Process <span className="highlight">We Follow</span></h2>
         <div className="steps">

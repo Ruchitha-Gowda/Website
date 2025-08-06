@@ -5,6 +5,13 @@ import Js1 from "../images/js1.jpg";
 import F1 from "../images/f1.png";
 import F2 from "../images/f2.png";
 import F5 from "../images/f5.png";
+import J1 from "../images/j1.png";
+import J2 from "../images/j2.png";
+import J3 from "../images/j3.png";
+import J4 from "../images/j4.png";
+import J5 from "../images/j5.png";
+import J6 from "../images/j6.png";
+import J7 from "../images/j7.png";
 import './job.css';
 
 const jobs = [
@@ -22,6 +29,41 @@ const jobs = [
     company: 'Cognizant',
     role: 'Art Director',
     img: F2,
+  },
+  {
+    company: "Capgemini",
+    role: "Frontend Developer",
+    img: J4,
+  },
+  {
+    company: "Tech Solutions",
+    role: "Frontend Developer",
+    img: J3,
+  },
+  {
+    company: "CodeLab",
+    role: "Backend Develoer Intern",
+    img: J5,
+  },
+  {
+    company: "Design Studio",
+    role: "UI/UX Designer",
+    img: J1,
+  },
+  {
+    company: "Apify",
+    role: "Mobile App Developer",
+    img: J2,
+  },
+  {
+    company: "PixelCraft",
+    role: "Graphic Designer",
+    img: J6,
+  },
+  {
+    company: "QualitySoft",
+    role: "Software Tester",
+    img: J7,
   }
 ];
 
@@ -42,6 +84,7 @@ export default function Jobs() {
               <img src={job.img} alt={job.company} />
               <h3>{job.company}</h3>
               <p>{job.role}</p>
+              <button><a href='#'>Apply Now</a></button>
             </div>
           ))}
         </div>

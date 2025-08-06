@@ -1,0 +1,66 @@
+.salesforce-form {
+  flex: 1 1 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e4e1e2;
+  box-sizing: border-box;
+  min-width: 300px;
+  margin: 60px;
+  margin-top: 10px;
+}
+
+.salesforce-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: aquamarine;
+  font-size: 1.5rem;
+}
+
+.salesforce-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.salesforce-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #e4e1e2;
+}
+
+.salesforce-form input,
+.salesforce-form select,
+.salesforce-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.salesforce-form input::placeholder,
+.salesforce-form textarea::placeholder {
+  color: #ccc;
+}
+
+.salesforce-form input[type="submit"] {
+  background-color: #87CEEB;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.salesforce-form input[type="submit"]:hover {
+  background-color: #76b8d0;
+}
+
+.salesforce-form input:focus,
+.salesforce-form textarea:focus,
+.salesforce-form select:focus {
+  outline: none;
+  border: 1px solid aquamarine;
+  background-color: rgba(255, 255, 255, 0.2);
+}

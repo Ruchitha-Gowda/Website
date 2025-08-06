@@ -1,57 +1,70 @@
-.home-link,
-.dropdown {
-    float: none;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+.header {
+  background: linear-gradient(135deg, #2F4F4F, #000000);
+  width: 100%;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navbar links */
+.nav-item a {
+  color: #FFE5B4;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  z-index: 9999;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* Collapsible nav padding */
+.navbar-collapse {
+  padding: 10px 15px;
+}
+
+/* Home link */
 .home-link {
-    text-decoration: none;
-    background-color: #87CEEB;
-    padding: 10px 20px;
-    margin: 10px 0;
-    border-radius: 8px;
-    color: white;
-    font-size: larger;
-    font-weight: bold;
-}
-
-.btn {
-    background: linear-gradient(45deg, #FFD700, #FFA500);
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: large;
+  text-decoration: none;
+  background-color: #87CEEB;
+  padding: 10px 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .home-link:hover {
-    transform: translateY(-3px);
-    transition: transform 0.3s ease;
+  transform: translateY(-3px);
+  transition: transform 0.3s ease;
 }
 
-.header {
-    background: linear-gradient(135deg, #2F4F4F, #000000);
-    padding: 2px;
-    width: 100%;
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.nav-item a {
-    color: #FFE5B4;
-    font-size: 1.1rem;
-    letter-spacing: 0.05em;
-    align-items: center;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    transition: color 0.3s ease;
-}
-
-
-
-
-.dropdown-menu {
-    z-index: 9999;
+/* Button */
+.btn {
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 5px;
+  margin-top: 10px;
 }

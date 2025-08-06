@@ -19,18 +19,18 @@ const faqData = [
     answer: "Yes, I am open to freelance opportunities. Feel free to reach out!"
   },
   {
-    question:"Where is Cloudisian located?",
-    answer:"We are headquartered in Bengaluru, India, but we operate globally through virtual platforms and cloud infrastructure."
-    },
-    {
-        question:"Do you help with career development or placements?",
-        answer:"Yes, our training programs often include placement support, resume reviews, and interview preparation to help candidates get job-ready."
+    question: "Where is Cloudisian located?",
+    answer: "We are headquartered in Bengaluru, India, but we operate globally through virtual platforms and cloud infrastructure."
+  },
+  {
+    question: "Do you help with career development or placements?",
+    answer: "Yes, our training programs often include placement support, resume reviews, and interview preparation to help candidates get job-ready."
 
-    },
-    {
-       question:"Do you offer online training programs?",
-    answer:"Absolutely! Cloudisian offers online instructor-led and self-paced training in Web Development, Cloud Computing, DevOps, Python, and more. Visit our Training section to learn more."
-    }
+  },
+  {
+    question: "Do you offer online training programs?",
+    answer: "Absolutely! Cloudisian offers online instructor-led and self-paced training in Web Development, Cloud Computing, DevOps, Python, and more. Visit our Training section to learn more."
+  }
 
 ];
 
@@ -55,6 +55,6 @@ export default function Faq() {
           </div>
         ))}
       </div>
-    </div>
-  );
+    </div>
+  );
 }

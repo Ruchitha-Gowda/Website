@@ -16,6 +16,7 @@ import About from "./pages/about";
 import Project from "./pages/projects"
 import Signup from "./pages/signup";
 import Login from "./pages/login"
+import ThankYou from "./pages/thankyou";
 import KnowledgeHub from "./pages/knowledgehub/knowledgehub";
 
 export default function App() {
@@ -39,6 +40,8 @@ export default function App() {
       <Route path="/project" element={<Project/>}/>
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/login" element={<Login/>}/>
+      <Route path="/thank-you" element={<ThankYou />} />
+
     </Routes>
     <Footer/>
     </BrowserRouter>

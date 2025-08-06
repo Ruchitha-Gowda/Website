@@ -27,16 +27,19 @@ export default function Header() {
                         <li className="nav-item"><a className="nav-link" href="/blog">Blogs</a></li>
                     </ul>
 
-                    <div className="d-flex flex-column flex-lg-row align-items-start align-items-lg-center ms-lg-auto">
-                        <a href="/" className="home-link mb-2 mb-lg-0">Home</a>
-                        <div className="dropdown ms-lg-3">
-                            <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown">Register</button>
+                    <div className="d-flex flex-column flex-lg-row align-items-start align-items-lg-center ms-lg-auto gap-2">
+                        <a href="/" className="home-link">Home</a>
+                        <div className="dropdown">
+                            <button type="button" className="btn dropdown-toggle" data-bs-toggle="dropdown">
+                                Register
+                            </button>
                             <ul className="dropdown-menu">
                                 <li><a className="dropdown-item" href="/signup">Sign Up</a></li>
                                 <li><a className="dropdown-item" href="/login">Login</a></li>
                             </ul>
                         </div>
                     </div>
+
                 </div>
             </nav>
         </div>
